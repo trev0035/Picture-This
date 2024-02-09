@@ -17,34 +17,51 @@
     </div>
 
     <picture>
-      <!-- LANDSCAPE SIZES for screens below 960px -->
+      <!-- LANDSCAPE IMAGES for screens below 960px -->
       <!-- viewport 320px -->
       <source srcset="images/museum-320_x_180.jpg 1x, 
-      images/museum-640_x_360.jpg 2x, 
-      images/museum-960_x_540.jpg 3x" 
-      media="(max-width: 960px)">
+                  images/museum-640_x_360.jpg 2x, 
+                  images/museum-960_x_540.jpg 3x" 
+          media="(max-width: 320px)">
 
-      <!-- viewport 480px-->
+      <!-- viewport 321px to 480px-->
       <source srcset="images/museum-480_x_270.jpg 1x, 
                   images/museum-960_x_540.jpg 2x, 
                   images/museum-1440_x_810.jpg 3x" 
           media="(min-width: 321px) and (max-width: 480px)">
 
-      <!-- viewport 720px-->
+      <!-- viewport 481px to 720px-->
       <source srcset="images/museum-720_x_405.jpg 1x, 
                   images/museum-1440_x_810.jpg 2x, 
                   images/museum-2160_x_1215.jpg 3x" 
           media="(min-width: 481px) and (max-width: 720px)">
-
-      <!-- viewport 960px-->
+          
+          <!-- viewport 721px to 960px-->
       <source srcset="images/museum-960_x_540.jpg 1x, 
                   images/museum-1920_x_1080.jpg 2x, 
                   images/museum-2880_x_1620.jpg 3x" 
           media="(min-width: 721px) and (max-width: 960px)">
 
+      <!-- SQUARE IMAGES for screens above 960px -->
+      <!-- viewport 961px to 1280px -->
+      <source srcset="images/museum-480_x_480.jpg 1x, 
+                  images/museum-960_x_960.jpg 2x, 
+                  images/museum-1440_x_1440.jpg 3x" 
+          media="(min-width: 961px) and (max-width: 1280px)">
 
-          
-          <img src="images/museum.jpg" alt="placeholder">
+      <!-- viewport 1281px to 1600px -->
+      <source srcset="images/museum-640_x_640.jpg 1x, 
+                  images/museum-1280_x_1280.jpg 2x, 
+                  images/museum-1920_x_1920.jpg 3x" 
+          media="(min-width: 1281px) and (max-width: 1600px)">
+
+      <!-- viewport 1600px -->
+      <source srcset="images/museum-800_x_800.jpg 1x, 
+                  images/museum-1600_x_1600.jpg 2x, 
+                  images/museum-2400_x_2400.jpg 3x" 
+          media="(min-width: 1601px)">
+  
+          <img src="images/museum.jpg" alt="museum room with paintings hanging on walls">
     </picture>
 
   </header>
